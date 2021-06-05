@@ -13,8 +13,6 @@ class Server:
         PORT = 25565
 
         self.CONNECTION_HEADER = "CON"
-        self.PADDLE_HEADER = "PDL"
-        self.BALL_HEADER = "BAL"
 
         self.__connection_registry = ConnectionRegistry(self)
         self.__open_connections(ADDRESS, PORT)
