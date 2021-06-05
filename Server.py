@@ -1,6 +1,5 @@
 import socket
 from os import system
-from time import sleep
 from packet.Packet import Packet
 from packet.queue.PacketQueue import PacketQueue
 from connection.registry.ConnectionRegistry import ConnectionRegistry
